@@ -1,4 +1,4 @@
-### README: Analyzing Trump's 2024 Campaign Speeches
+# Analyzing Trump's 2024 Campaign Speeches
 
 ---
 

@@ -1,12 +1,8 @@
-# Finalized Plan for **Temporal Topic Modeling on Research Papers**
-
-After reviewing, this is the final detailed plan with actionable steps and suggestions for starting work:
-
----
+# Temporal Topic Modeling on Research Papers
 
 ## Objective
 
-To analyze how research topics evolve over time by applying temporal topic modeling to a dataset of research papers and enhance insights through network analysis of citation dynamics.
+To analyze how research topics evolve over time by applying temporal topic modeling on a dataset of research papers and enhance insights through network analysis of citation dynamics.
 
 ---
 
@@ -15,7 +11,7 @@ To analyze how research topics evolve over time by applying temporal topic model
 ### 1. Define Scope and Objectives
 
 - Choose a field (e.g., AI, climate change, biomedical research) to analyze.
-- Set the time frame (e.g., research papers published from 2010–2023).
+- Set the time frame (e.g., research papers published from 2010–2024).
 - Questions to explore:
   - What are the key topics in this domain?
   - How have topics emerged, evolved, or declined over time?
@@ -27,13 +23,12 @@ To analyze how research topics evolve over time by applying temporal topic model
 
 - **Sources**:
   - **arXiv**: Use the API to fetch metadata and abstracts from selected categories (e.g., cs.AI, stat.ML).
-  - **PubMed**: For biomedical research papers via the PubMed API.
-  - **Semantic Scholar Open Research Corpus**: For a general dataset of research papers with metadata and citation data.
-  - **Kaggle Datasets**: Search for ready-to-use datasets such as "AI research trends" or "arXiv papers."
-  - **Microsoft Academic Graph**: For detailed citation network data.
 - **Considerations**:
   - Ensure the dataset includes publication dates, abstracts, and citation information.
   - Clean and format metadata (e.g., publication year, author keywords).
+
+Dataset: https://www.kaggle.com/datasets/Cornell-University/arxiv \
+Inspire: https://www.kaggle.com/code/maartengr/topic-modeling-arxiv-abstract-with-bertopic/notebook
 
 ---
 
@@ -43,7 +38,7 @@ To analyze how research topics evolve over time by applying temporal topic model
   - Remove irrelevant data (e.g., acknowledgments, references if full text is used).
   - Tokenize, lemmatize, and remove stop words using NLP libraries like NLTK or SpaCy.
 - **Time Binning**:
-  - Segment the dataset into temporal bins (e.g., yearly or every 5 years).
+  - Segment the dataset into temporal bins (e.g., yearly).
 - **Metadata Enrichment**:
   - Add topic labels, citation counts, and other metadata to nodes for later analysis.
 
@@ -63,8 +58,9 @@ To analyze how research topics evolve over time by applying temporal topic model
 
 ---
 
-### 5. Citation Network Analysi
+### 5. Citation Network Analysis
 
+- **Build a Citation Network**:
 - **Build a Citation Network**:
   - Represent papers as nodes and citations as directed edges.
   - Aggregate at the topic level (e.g., connect topics that cite each other heavily).
@@ -97,19 +93,6 @@ To analyze how research topics evolve over time by applying temporal topic model
   - **Technical Report**: Methods, findings, and technical details of the implementation.
   - **Presentation Slides**: Summarizing the project's findings and key visuals.
   - **Code Repository**: Include clean, commented code for reproducibility (e.g., on GitHub).
-
----
-
-## Timeline
-
-| **Week** | **Tasks**                                             |
-|----------|-------------------------------------------------------|
-| Week 1   | Define scope, research domain, and collect datasets.  |
-| Week 2   | Preprocess data (cleaning, tokenizing, and time binning). |
-| Week 3   | Implement temporal topic modeling (LDA, BERTopic).    |
-| Week 4   | Build and analyze the citation network.               |
-| Week 5   | Visualize results and prepare documentation.          |
-| Week 6   | Finalize the report and presentation.                 |
 
 ---
 

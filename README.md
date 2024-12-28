@@ -8,6 +8,6 @@
 
 ## Project Information
 
-- Project1: [Temporal Topic Modeling on Research Papers](project1/README.md)
+- Project1: [Temporal Topic Modeling on Research Papers](project1)
 - Project2:
 - Project3:

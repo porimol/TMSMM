@@ -1,7 +1,13 @@
-# Text Mining and Social Media Mining (TMSMM)
+# Text Mining and Social Media Mining (TMSMM) group project
 
-## Project information
+## Teammates
 
-- [Temporal Topic Modeling on Research Papers](project1/README.md)
+- Porimol Chandro
+- Samidullo Abdullaev
+- Zaid Alotel
 
-[TBD]
+## Project Information
+
+- Project1: [Temporal Topic Modeling on Research Papers](project1/README.md)
+- Project2:
+- Project3:

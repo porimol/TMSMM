@@ -1,4 +1,4 @@
-# Text Mining and Social Media Mining (TMSMM) group project
+# Text Mining and Social Media Mining (TMSMM) project
 
 ## Project Information
 
